@@ -55,18 +55,29 @@ int ethPort = 3300;                                  // Take a free port (check 
 #define analogPin    0  // sensor value
 
 EthernetServer server(ethPort);              // EthernetServer instance (listening on port <ethPort>).
+
+NewRemoteTransmitter transmitter(4255908178, 2, 260, 3);
+
+/*
 NewRemoteTransmitter apa3Transmitter(unitCodeApa3, RFPin, 260, 3);  // APA3 (Gamma) remote, use pin <RFPin> 
 ActionTransmitter actionTransmitter(RFPin);  // Remote Control, Action, old model (Impulse), use pin <RFPin>
+*/
 //RCSwitch mySwitch = RCSwitch();            // Remote Control, Action, new model (on-off), use pin <RFPin>
 
 char actionDevice = 'A';                 // Variable to store Action Device id ('A', 'B', 'C')
 bool pinState = false;                   // Variable to store actual pin state
+bool rf1, rf2, rf3, rf1Change, rf2Change, rf3Change = false;
 bool pinChange = false;                  // Variable to store actual pin change
 int  sensorValue = 0;                    // Variable to store actual sensor value
 int  sensorValue2 = 0;                    // Variable to store actual sensor value
 
 void setup()
 {
+  // Set RF all out to start with
+   transmitter.sendUnit(1, false);
+   transmitter.sendUnit(2, false);
+   transmitter.sendUnit(3, false);
+   
    Serial.begin(9600);
    //while (!Serial) { ; }               // Wait for serial port to connect. Needed for Leonardo only.
 
@@ -140,6 +151,24 @@ void loop()
          else { switchDefault(false); digitalWrite(ledPin, LOW); }
          pinChange = false;
       }
+
+      if (rf1Change) {
+        if (rf1) { transmitter.sendUnit(1, true); }
+        else { transmitter.sendUnit(1, false); }
+        rf1Change = false;
+      }
+      
+      if (rf2Change) {
+        if (rf2) { transmitter.sendUnit(2, true); }
+        else { transmitter.sendUnit(2, false); }
+        rf2Change = false;
+      }
+      
+      if (rf3Change) {
+        if (rf3) { transmitter.sendUnit(3, true); }
+        else { transmitter.sendUnit(3, false); }
+        rf3Change = false;
+      }
    
       // Execute when byte is received.
       while (ethernetClient.available())
@@ -155,9 +184,9 @@ void loop()
 // Choose and switch your Kaku device, state is true/false (HIGH/LOW)
 void switchDefault(bool state)
 {   
-   apa3Transmitter.sendUnit(0, state);          // APA3 Kaku (Gamma)                
-   delay(100);
-   actionTransmitter.sendSignal(unitCodeActionOld, actionDevice, state);  // Action Kaku, old model
+   //apa3Transmitter.sendUnit(0, state);          // APA3 Kaku (Gamma)                
+   //delay(100);
+   //actionTransmitter.sendSignal(unitCodeActionOld, actionDevice, state);  // Action Kaku, old model
    delay(100);
    //mySwitch.send(2210410 + state, 24);  // tricky, false = 0, true = 1  // Action Kaku, new model
    //delay(100);
@@ -196,14 +225,24 @@ void executeCommand(char cmd)
          case 'i':    
             digitalWrite(infoPin, HIGH);
             break;
-         /*case '1':
-            if (pinState) { server.write(" ON\n"); Serial.println("RF 1 is ON"); }  // always send 4 chars
-            else { server.write("OFF\n"); Serial.println("RF 2 is OFF"); }
+         case '1':          
+            if (rf1) { rf1 = false; server.write("OFF\n"); Serial.println("RF 1 is OFF"); }  // always send 4 chars
+            else { rf1 = true; server.write(" ON\n"); Serial.println("RF 1 is ON"); }
+            rf1Change = true;
             break;
-            Server.write(status);*/
-          break;
+         case '2':          
+            if (rf2) { rf2 = false; server.write("OFF\n"); Serial.println("RF 2 is OFF"); }  // always send 4 chars
+            else { rf2 = true; server.write(" ON\n"); Serial.println("RF 2 is ON"); }
+            rf2Change = true;
+            break;
+         case '3':          
+            if (rf3) { rf3 = false; server.write("OFF\n"); Serial.println("RF 3 is OFF"); }  // always send 4 chars
+            else { rf3 = true; server.write(" ON\n"); Serial.println("RF 3 is ON"); }
+            rf3Change = true;
+            break;
          default:
             digitalWrite(infoPin, LOW);
+            break;
          }
 }
 
