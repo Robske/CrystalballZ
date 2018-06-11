@@ -1,0 +1,72 @@
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\bin\Debug\My Room.dll
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\bin\Debug\My Room.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\bin\Debug\My_Room.My_Room.apk
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\bin\Debug\My_Room.My_Room-Signed.apk
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\My Room.csprojAssemblyReference.cache
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\My Room.csproj.CoreCompileInputs.cache
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\My Room.dll
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\My Room.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\android\bin\My_Room.My_Room.apk
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\layout\activity_main.xml
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\layout\content_main.xml
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\values\colors.xml
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\values\dimens.xml
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\values\ic_launcher_background.xml
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\values\strings.xml
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\values\styles.xml
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\menu\menu_main.xml
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\mipmap-anydpi-v26\ic_launcher.xml
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\mipmap-anydpi-v26\ic_launcher_round.xml
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\mipmap-hdpi\ic_launcher.png
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\mipmap-hdpi\ic_launcher_foreground.png
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\mipmap-hdpi\ic_launcher_round.png
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\mipmap-mdpi\ic_launcher.png
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\mipmap-mdpi\ic_launcher_foreground.png
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\mipmap-mdpi\ic_launcher_round.png
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\mipmap-xhdpi\ic_launcher.png
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\mipmap-xhdpi\ic_launcher_foreground.png
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\mipmap-xhdpi\ic_launcher_round.png
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\mipmap-xxhdpi\ic_launcher.png
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\mipmap-xxhdpi\ic_launcher_foreground.png
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\mipmap-xxhdpi\ic_launcher_round.png
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\mipmap-xxxhdpi\ic_launcher.png
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\mipmap-xxxhdpi\ic_launcher_foreground.png
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\res\mipmap-xxxhdpi\ic_launcher_round.png
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\R.cs.flag
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\R.txt
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\uploadflags.txt
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\bin\Debug\Mono.Android.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\bin\Debug\mscorlib.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\bin\Debug\System.Core.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\bin\Debug\System.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\bin\Debug\System.Xml.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\bin\Debug\System.ComponentModel.Composition.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\bin\Debug\System.Net.Http.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\bin\Debug\System.Runtime.Serialization.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\bin\Debug\System.ServiceModel.Internals.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\bin\Debug\Mono.Security.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\linksrc\Mono.Android.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\linksrc\mscorlib.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\linksrc\System.Core.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\linksrc\System.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\linksrc\System.Xml.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\linksrc\System.ComponentModel.Composition.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\linksrc\System.Net.Http.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\linksrc\System.Runtime.Serialization.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\linksrc\System.ServiceModel.Internals.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\linksrc\Mono.Security.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\linksrc\My Room.dll.mdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\bin\Debug\My Room.dll.mdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\android\assets\My Room.dll.mdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\android\assets\Mono.Android.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\android\assets\Mono.Security.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\android\assets\mscorlib.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\android\assets\System.ComponentModel.Composition.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\android\assets\System.Core.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\android\assets\System.Net.Http.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\android\assets\System.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\android\assets\System.Runtime.Serialization.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\android\assets\System.ServiceModel.Internals.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\android\assets\System.Xml.pdb
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\bin\Debug\My Room.dll
+C:\Users\31624\Documents\Arduino\KamerProject\My Room\My Room\obj\Debug\linksrc\My Room.dll.mdb
